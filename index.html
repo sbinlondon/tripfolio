@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800" rel="stylesheet"> -->
+  <link href="https://fonts.googleapis.com/css?family=Imprima|Lato:300" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Tripfolio</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>tripfolio</h1>
+      <div class="head-img-container">
+        <img src="img/drone-map-shore.jpg" alt="drone-photo-of-shore">
+        <div class='centered'>
+          <h2>Our mission:</h2>
+          <p class='tagline'>
+            Inspire the world
+            <br>
+            to see
+            <br>
+            their world*
+          </p>
+          <p class='asterix'>
+            *all you need is a map
+          </p>
+        </div>
+      </div>
+    </header>
+    <section class="about-mapping">
+      <div class="left">
+        <h2>what is tripfolio about?</h2>
+      </div>
+      <div class="right">
+        <p>
+          Lots of interesting of interesting text that covers the main idea about what Mapping does, how it builds on the limited
+          functionality of Google Maps etc etc
+        </p>
+      </div>
+    </section>
+    <section class="about-team">
+      <div class="left">
+        <h2 class="left-content hidden" id="about-header" name="Us">about the<br>co-founders</h2>
+        <img src="img/kate.jpg" alt="team-pic" id="kate-pic" class="left-content hidden round-img">
+        <img src="img/joe.jpg" alt="team-pic" id="joe-pic" class="left-content hidden round-img">
+      </div>
+      <div class="right">
+        <!-- Tab links -->
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'Us')" id="defaultOpen">Us</button>
+          <button class="tablinks" onclick="openCity(event, 'Kate')">Kate</button>
+          <button class="tablinks" onclick="openCity(event, 'Joe')">Joe</button>
+        </div>
+
+        <!-- Tab content -->
+        <div id="Us" class="tabcontent">
+          <p>Kate and Joe met at Founders & Coders, the UK’s leading coding bootcamp.</p>
+          <p>Having gained a lot of experience across business development, marketing and ops, they both now are getting the
+            vital developer skills that enable them to bring their ideas to life. Currently both Kate and Joe are becoming
+            proficient in Javascript, Node and SQL, and everything involved in full stack development.</p>
+          <p>As with any good idea, Mapping comes out of selfish need to solve a problem both of us have faced and bonded over.
+            Both of us are avid travellers, with Joe having spent the past year travelling the world (a large chunk of which
+            involved living in a van with his dog!) and Kate having already lived in the States, to Munich, to London. </p>
+        </div>
+
+        <div id="Kate" class="tabcontent">
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+            a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+            Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions
+            of Lorem Ipsum.</p>
+        </div>
+
+        <div id="Joe" class="tabcontent">
+          <p>Aside from travelling, Joe enjoys nothing more than bringing ideas to life.</p>
+          <p>Having started in a team of five at children’s radio station, Fun Kids, over 5 years he helped grow it into a national
+            award-winning brand with over 300,000 listeners every week and year-on-year growth in profits. During that time
+            he ran day-to-day operations, business development and marketing, with one of his strategic partnerships leading
+            to the brand’s highest ever audience and winning Innovation of the Year at the UK’s leading radio awards.</p>
+          <p>Following his time there, he then ran an influencer marketing company called Social Circle, providing a managed
+            service for brands looking to work with social stars online. During this time he innovated and oversaw the development
+            of a specialist influencer tech platform with a proprietary algorithm to properly identify and evaluate influencers.
+            This work led to him being approached by Good Relations, to create and build a new influencer division for them,
+            which quickly gained a range of global clients including Canon, Subway and B&Q.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
