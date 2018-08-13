@@ -317,3 +317,42 @@ header {
 .hidden {
   display: none;
 }
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+  }
+
+  body {
+    background-color: hsl(172, 40%, 80%);
+  }
+
+  section {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  h1, h2 {
+    font-family: 'Imprima', sans-serif;
+  }
+
+  .centered {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .about-mapping {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-team {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
